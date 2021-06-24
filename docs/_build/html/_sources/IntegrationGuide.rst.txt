@@ -1570,7 +1570,7 @@ Submit the Payment: Example from Bankograph Demoshop
 
   For Non-3D Secure transactions, any further steps, such as displaying success messages to your consumer, or redirecting your consumer to success-/fail-/cancel-pages, need to be implemented separately in your online shop.
 
-4. **The Parse and Process the Payment Response (Highly Recommended)**
+4.**The Parse and Process the Payment Response (Highly Recommended)**
 
   Once you have submitted the payment, and it has been processed, you receive a payment response. The payment response is sent in three parts: the ``response-signature-base64``, the ``response-signature-algorithm``, and the ``response-base64``.
 
